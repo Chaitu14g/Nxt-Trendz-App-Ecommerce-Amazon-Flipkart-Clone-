@@ -1,0 +1,56 @@
+.totalContainerCheckOut {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px;
+}
+
+.totalContainerCheckOutSub {
+  margin-left: auto;
+  width: 40%;
+}
+
+.orderTotalHeading {
+  color: #616e7c;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.orderTotalHeadingAmount {
+  color: #171f46;
+  line-height: 1;
+}
+
+.orderTotalPara {
+  color: #616e7c;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.checkoutButton {
+  background-color: #0b69ff;
+  padding: 10px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .checkoutButton {
+    background-color: #0b69ff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    width: 40%;
+    margin-left: auto;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}
